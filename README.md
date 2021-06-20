@@ -5,7 +5,7 @@
 
 <b>Na script estou consumindo a api feita por mim usando flask</p>
 
-<a href="https://github.com/Shateizin/heroku-api-flask"> Aqui esta o repo da api</a>
+<a href="https://github.com/Shateizin/api-consulta"> Aqui esta o repo da api</a>
 
 <b>Ela não mostra nome nem data de nascimento, ela so mostra se existe uma pessoa com aquele cpf</b>
 
