@@ -2,6 +2,7 @@
 
 
 <b>Script feita em Javascript é html</b>
+
 <b>Na script estou consumindo a api feita por mim usando flask</p>
 
 <a href="https://github.com/Shateizin/heroku-api-flask"> Aqui esta o repo da api</a>
