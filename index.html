@@ -26,8 +26,10 @@
     }
 }
   function clic(){
-    resul.innerHTML == ""
+    resul.innerHTML == "AGUARDE"
     let cpf = document.getElementById("cpf").value
+    cpf.replace("-", "")
+    cpf.replace(".", "")
     if (cpf == ""){
       resul.innerHTML = "DIGITE UM VALOR VALIDO"
     }
