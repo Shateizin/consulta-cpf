@@ -3,4 +3,4 @@
 
 <b>Script feita em Javascript é html usando a api que eu fiz</b>
 
-<a href="https://github.com/Shateizin/> Aqui esta a api</a>
+<a href="https://github.com/Shateizin/"> Aqui esta a api</a>
