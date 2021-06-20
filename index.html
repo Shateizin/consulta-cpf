@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+<title>--Formulário Contato--</title>
+<meta charset="utf-8" />
+</head>
+<body id="body">
+  <input id="cpf"/>
+  <button onclick="clic()">CONSULTAR</button>
+  <h2 id="resul"></h2>
+</body>
+  <script>
+  let resul = document.getElementById("resul")
+  const consultar = async(cpf) => {
+    url = `http://heroku-api-cpf.herokuapp.com/cp/${cpf}/`
+    var xhttp = new XMLHttpRequest();
+    xhttp.open("GET", url, false);
+    xhttp.send();//A execução do script pára aqui até a requisição retornar do servidor
+    let resposta = xhttp.responseText;
+    if (resposta == "{'status': 'NÃO VALIDO'}"){
+      resul.innerHTML = "CPF NÃO EXISTENTE"
+    }
+    else{
+      resul.innerHTML = "CPF EXISTENTE"
+    }
+}
+  function clic(){
+    resul.innerHTML == ""
+    let cpf = document.getElementById("cpf").value
+    if (cpf == ""){
+      resul.innerHTML = "DIGITE UM VALOR VALIDO"
+    }
+    else{
+    resul.innerHTML = ""
+    consultar(cpf)
+    }
+  }
+</script>
+</html>
