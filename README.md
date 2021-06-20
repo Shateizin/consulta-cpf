@@ -1,7 +1,8 @@
 <h1 style="text-align: center;">Consultar cpf</h1>
 
 
-<b>Script feita em Javascript é html usando a api que eu fiz</b>
+<b>Script feita em Javascript é html</b>
+<b>Na script estou consumindo a api feita por mim usando flask</p>
 
 <a href="https://github.com/Shateizin/heroku-api-flask"> Aqui esta o repo da api</a>
 
